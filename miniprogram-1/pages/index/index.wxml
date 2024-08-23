@@ -1,4 +1,4 @@
-<view class="container">
+<view class="container" style="width: 750rpx; height: 1414rpx; display: flex; box-sizing: border-box">
   <view class="button-group">
    <button type="primary" bindtap="onCreateTeam">创建队伍</button>
    <button type="primary" bindtap="onJoinTeam">加入队伍</button>
