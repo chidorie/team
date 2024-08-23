@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="input-group">
+    <text>队伍名称：</text>
+  <input type="text" placeholder="请输入队伍名称" bindinput="onTeamNameInput" />
+  </view>
+  <view class="input-group">
+    <text>队伍人数：</text>
+  <input type="number" placeholder="请输入队伍人数" bindinput="onTeamMemberCountInput" />
+  </view>
+  <view class="input-group">
+    <text>队伍类型：</text>
+  <input type="text" placeholder="请输入队伍类型" bindinput="onTeamTypeInput" />
+</view>
+<view class="input-group">
+    <text>姓名：</text>
+  <input type="text" placeholder="请输入姓名" bindinput="onNameInput" />
+  </view><button bindtap="onJoinTeam">加入队伍</button>
+</view>

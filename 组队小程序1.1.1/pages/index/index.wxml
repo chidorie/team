@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="button-group">
+   <button type="primary" bindtap="onCreateTeam">创建队伍</button>
+   <button type="primary" bindtap="onJoinTeam">加入队伍</button>
+  </view>
+</view>
