@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/createTeam/createTeam",
+    "pages/joinTeam/joinTeam",
+    "pages/team_detail/team_detail",
+    "pages/result/result",
+    "pages/freeTeam/freeTeam",
+    "pages/group/group"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "组队助手",
+    "navigationBarTextStyle": "black"
+  }
+}
