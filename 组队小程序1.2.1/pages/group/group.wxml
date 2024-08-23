@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="form">
+  <input class="input" placeholder="小组名称" bindinput="onGroupNameInput" />
+  <input class="input" placeholder="小组成员（用逗号分隔）" bindinput="onGroupMembersInput" />
+  <button class="submit-btn" bindtap="onSubmit">提交</button>
+  </view>
+  <view class="result" wx:if="{{isSubmitted}}">
+    <text>组队成功！</text>
+  </view>
+</view>

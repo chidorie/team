@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="form">
+   <input class="input" placeholder="队伍名称" bindinput="onTeamNameInput" />
+   <input class="input" placeholder="队伍人数" bindinput="onTeamSizeInput" type="number" />
+   <picker mode="selector" range="{{teamTypes}}" bindchange="onTeamTypeChange">
+      <view class="picker">{{selectedTeamType}}</view>
+    </picker>
+   <input class="input" placeholder="姓名" bindinput="onNameInput" />
+   <button class="submit-btn" bindtap="onSubmit" style="position: relative; left: -2rpx; top: 87rpx">提交</button>
+    <!-- 添加一个新的按钮，用于触发 ongroup 函数 -->
+   <button class="group-btn" bindtap="ongroup" style="position: relative; left: 0rpx; top: 189rpx">前往组队页面</button>
+  </view>
+  <view class="result" wx:if="{{isSubmitted}}">
+    <text>加入成功！</text>
+  </view>
+</view>

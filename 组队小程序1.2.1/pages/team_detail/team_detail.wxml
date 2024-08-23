@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="team-members">
+    <text>队伍成员：</text>
+    <view wx:for="{{teamMembers}}" wx:key="index">
+      <text>{{item}}</text>
+    </view>
+  </view>
+ <input type="number" placeholder="请输入分组数量" bindinput="onInputGroupCount" />
+ <button bindtap="randomizeGroups">随机分组</button>
+  <view wx:for="{{groups}}" wx:key="index">
+    <text>{{item.join(', ')}}</text>
+  </view>
+</view>

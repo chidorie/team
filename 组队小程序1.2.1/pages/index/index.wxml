@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="button-group">
+    <button type="primary" bindtap="onCreateTeam" style="position: relative; left: 219rpx; top: 525rpx">创建团队</button>
+    <button type="primary" bindtap="onJoinTeam" style="position: relative; left: -7rpx; top: 718rpx">随机组队</button>
+    <button type="primary" bindtap="onfreeTeam" style="position: relative; left: -231rpx; top: 927rpx">自由组队</button>
+  </view>
+  <image style="position: relative; left: -2rpx; top: -116rpx; width: 649rpx; height: 433rpx; display: block; box-sizing: border-box" src="https://images.sj33.cn/uploads/202009/7-200Z914243Kc.jpg" />
+</view>
